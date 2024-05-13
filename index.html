@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" onclick="jump()">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="assets/yellowbird-downflap.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Flappy Bird</title>
+  </head>
+  <body>
+    <div class="gameArea">
+      <div class="popup__playAgain">
+        <p>Game Over</p>
+        <p onclick="playAgain()">Play Again</p>
+      </div>
+      <div class="gameArea__base"></div>
+      <div class="gameArea__player"></div>
+      <div class="gameArea__score">0</div>
+      <div class="gameArea__pipes">
+        <img src="assets/pipe-green.png" alt="" class="pipe1" />
+        <img src="assets/pipe-green.png" alt="" class="pipe2" />
+      </div>
+      <div class="gameArea__pipes2">
+        <img src="assets/pipe-green.png" alt="" class="pipe1" />
+        <img src="assets/pipe-green.png" alt="" class="pipe2" />
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
